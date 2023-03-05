@@ -48,6 +48,10 @@ After triggering the exploit it is necessary to **stop** or **reboot** the servi
 
 ![PoC.gif](./PoC.gif)
 
+### NOTE
+
+In order to copy target DLL files to a writable directory in PATH, use [_localpotato_](https://github.com/decoder-it/LocalPotato) exploit to do that 
+
 ## References
 
 - [Fuzzing Windows RPC with RpcView](https://itm4n.github.io/fuzzing-windows-rpc-rpcview/)
